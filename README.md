@@ -1,0 +1,1 @@
+# shinoshike005.github.io
