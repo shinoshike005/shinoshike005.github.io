@@ -6,7 +6,7 @@ $("#run").on("click",()=>{
         )
     );
 });
-$("#code").on("change",()=>{
+$("#code").on("input",()=>{
     localStorage.setItem("brainfuck_compiler_code",$("#code").val());
 });
 
