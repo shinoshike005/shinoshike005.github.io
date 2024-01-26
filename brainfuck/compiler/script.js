@@ -6,6 +6,12 @@ $("#run").on("click",()=>{
         )
     );
 });
+$("#code").on("change",()=>{
+    localStorage.setItem("brainfuck_compiler_code",$("#code").val());
+});
+
+if(localStorage.getItem("brainfuck_compiler_code") != null)
+    $("#code").val(localStorage.getItem("brainfuck_compiler_code"));
 
 
 
